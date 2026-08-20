@@ -1,0 +1,57 @@
+{
+    "soh_model": {
+        "metrics": {
+            "r2_score": 0.995,
+            "rmse": 0.1349,
+            "mae": 0.0689
+        },
+        "feature_importance": {
+            "cycle_number": 0.0122,
+            "odometer_km": 0.0165,
+            "avg_temperature_c": 0.0026,
+            "max_temperature_c": 0.0171,
+            "fast_charge_ratio": 0.0009,
+            "depth_of_discharge": 0.0049,
+            "c_rate": 0.0015,
+            "internal_resistance_mohm": 0.7001,
+            "cell_voltage_variance": 0.0362,
+            "cumulative_kwh_throughput": 0.2081
+        }
+    },
+    "rul_model": {
+        "metrics": {
+            "r2_score": 0.954,
+            "rmse": 105.9245,
+            "mae": 56.4854
+        },
+        "feature_importance": {
+            "cycle_number": 0.0032,
+            "odometer_km": 0.0038,
+            "avg_temperature_c": 0.0534,
+            "max_temperature_c": 0.01,
+            "fast_charge_ratio": 0.0444,
+            "depth_of_discharge": 0.3927,
+            "c_rate": 0.0289,
+            "internal_resistance_mohm": 0.153,
+            "cell_voltage_variance": 0.3054,
+            "cumulative_kwh_throughput": 0.0053
+        }
+    },
+    "anomaly_model": {
+        "metrics": {
+            "accuracy": 0.9979
+        },
+        "feature_importance": {
+            "cycle_number": 0.0017,
+            "odometer_km": 0.002,
+            "avg_temperature_c": 0.1395,
+            "max_temperature_c": 0.5738,
+            "fast_charge_ratio": 0.0246,
+            "depth_of_discharge": 0.0041,
+            "c_rate": 0.0089,
+            "internal_resistance_mohm": 0.1917,
+            "cell_voltage_variance": 0.0497,
+            "cumulative_kwh_throughput": 0.004
+        }
+    }
+}
